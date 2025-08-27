@@ -7,16 +7,16 @@ import pickle
 
 
 # load the trained model
-model = tf.keras.models.load_model('models\classification_model.h5')
+model = tf.keras.models.load_model('models/classification_model.h5')
 
 # Load Encoders and Scaler
-with open('pickle_files\label_encoder_gender.pkl','rb') as file :
+with open('pickle_files/label_encoder_gender.pkl','rb') as file :
     label_encoder_gender=pickle.load(file)
 
-with open('pickle_files\oneHot_encoder_geo.pkl','rb') as file :
+with open('pickle_files/oneHot_encoder_geo.pkl','rb') as file :
     oneHot_encoder_geo=pickle.load(file)
 
-with open('pickle_files\scaler.pkl','rb') as file :
+with open('pickle_files/scaler.pkl','rb') as file :
     scaler=pickle.load(file)
 
 ###################################################################################
