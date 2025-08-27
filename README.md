@@ -2,6 +2,7 @@
 
 This project was created as a learning exercise for **Artificial Neural Networks (ANNs)**. It uses the **Churn_Modelling dataset** to explore both **classification** and **regression** tasks, along with a simple **Streamlit app** for customer churn prediction.  
 
+Deployed Streamlit App : https://anncustomerchurnapp-3jovlx8hfjjnqbx3ntzoig.streamlit.app/
 ---
 
 ## 🚀 Features  
@@ -34,8 +35,8 @@ This project was created as a learning exercise for **Artificial Neural Networks
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/your-username/ann-churn-salary.git
-   cd ann-churn-salary
+   git clone https://github.com/abvan/CustomerChurn_Streamlit.git
+   cd CustomerChurn_Streamlit
    ```
 
 2. Install dependencies  
@@ -65,7 +66,7 @@ This project was created as a learning exercise for **Artificial Neural Networks
 
 4. **Streamlit App**  
    - Provides a simple UI to input customer data.  
-   - Loads preprocessing pipelines (from `pickle_files/`) and trained ANN (`model.h5`).  
+   - Loads preprocessing pipelines (from `pickle_files/`) and trained ANN (`model.h5 files`).  
 
 ---
 
@@ -93,17 +94,6 @@ This project was created as a learning exercise for **Artificial Neural Networks
 ## 🎯 Future Improvements  
 
 - Add more robust hyperparameter tuning with **RandomizedSearchCV** and **Bayesian Optimization**.  
-- Deploy Streamlit app on cloud (Streamlit Cloud / Heroku).  
 - Add model performance comparison with other ML algorithms.  
 
 ---
-
-## 🤝 Contributing  
-
-This is a learning project, but contributions, suggestions, and feedback are welcome!  
-
----
-
-## 📜 License  
-
-This project is open-source and available under the **MIT License**.  
