@@ -23,7 +23,7 @@ This project was created as a learning exercise for **Artificial Neural Networks
 ├── experiments.ipynb          # Data preprocessing & model training
 ├── prediction.ipynb           # Model loading & prediction
 ├── hyperparametertuning.ipynb # ANN tuning with KerasClassifier & GridSearchCV
-├── model.h5                   # Saved ANN model
+├── models/                    # Saved ANN model
 ├── pickle_files/              # LabelEncoders, OneHotEncoders, Scalers
 └── README.md                  # Project documentation
 ```
