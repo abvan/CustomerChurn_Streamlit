@@ -11,6 +11,7 @@ This project was created as a learning exercise for **Artificial Neural Networks
 - **Streamlit App** – Interactive web app (`app.py`) for churn prediction.  
 - **Data Preprocessing & Training** – Done in `experiments.ipynb`.  
 - **Model Prediction** – Using trained model (`model.h5`) in `prediction.ipynb`.  
+- **Hyperparameter Tuning** – Performed in `hyperparametertuning.ipynb` using **KerasClassifier** and **GridSearchCV**.  
 - **Pickle Files** – Pre-trained encoders and scalers stored in `pickle_files/`.  
 
 ---
@@ -18,12 +19,13 @@ This project was created as a learning exercise for **Artificial Neural Networks
 ## 📂 Project Structure  
 
 ```
-├── app.py                # Streamlit application for classification
-├── experiments.ipynb     # Data preprocessing & model training
-├── prediction.ipynb      # Model loading & prediction
-├── model.h5              # Saved ANN model
-├── pickle_files/         # LabelEncoders, OneHotEncoders, Scalers
-└── README.md             # Project documentation
+├── app.py                     # Streamlit application for classification
+├── experiments.ipynb          # Data preprocessing & model training
+├── prediction.ipynb           # Model loading & prediction
+├── hyperparametertuning.ipynb # ANN tuning with KerasClassifier & GridSearchCV
+├── model.h5                   # Saved ANN model
+├── pickle_files/              # LabelEncoders, OneHotEncoders, Scalers
+└── README.md                  # Project documentation
 ```
 
 ---
@@ -57,7 +59,11 @@ This project was created as a learning exercise for **Artificial Neural Networks
 2. **Regression (Salary Estimation)**  
    - ANN regression model predicts estimated salary.  
 
-3. **Streamlit App**  
+3. **Hyperparameter Tuning**  
+   - `hyperparametertuning.ipynb` explores optimal ANN architecture.  
+   - Uses **KerasClassifier** and **GridSearchCV** for parameter search.  
+
+4. **Streamlit App**  
    - Provides a simple UI to input customer data.  
    - Loads preprocessing pipelines (from `pickle_files/`) and trained ANN (`model.h5`).  
 
@@ -86,7 +92,7 @@ This project was created as a learning exercise for **Artificial Neural Networks
 
 ## 🎯 Future Improvements  
 
-- Add hyperparameter tuning for ANN models.  
+- Add more robust hyperparameter tuning with **RandomizedSearchCV** and **Bayesian Optimization**.  
 - Deploy Streamlit app on cloud (Streamlit Cloud / Heroku).  
 - Add model performance comparison with other ML algorithms.  
 
